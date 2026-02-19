@@ -9,15 +9,17 @@ body {
 header h1 {
     text-align: center;
     font-size: 50px;
-    color: white;
-    background-color: rgb(47, 148, 114);
+    background-color: rgb(234, 255, 47);
+}
+
+header img {
+    width: 60px;
 }
 
 .introducao p {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    color: rgb(43, 43, 43);
     margin-bottom: -5%;
 }
 
@@ -30,51 +32,46 @@ header h1 {
 
 .passageiro1 {
     width: 25%;
-    background-color: rgb(58, 180, 139);
+    background-color: rgb(234, 255, 47);
     border: 10px;
     border-radius: 15px;
 }
 
 .passageiro1 h2 {
-    color: rgb(36, 112, 87);
     font-size: 30px;
 }
 
 .passageiro1 p {
-    color: white;
+    font-size: 20px;
 }
 
 .passageiro2 {
     width: 25%;
-    background-color: rgb(58, 180, 139);
+    background-color: rgb(234, 255, 47);
     border: 10px;
     border-radius: 15px;
 }
 
 .passageiro2 h2 {
-    color: rgb(36, 112, 87);
     font-size: 30px;
 }
 
 .passageiro2 p {
-    color: white;
     font-size: 20px;
 }
 
 .passageiro3 {
     width: 25%;
-    background-color: rgb(58, 180, 139);
+    background-color: rgb(234, 255, 47);
     border: 10px;
     border-radius: 15px;
 }
 
 .passageiro3 h2 {
-    color: rgb(36, 112, 87);
     font-size: 30px;
 }
 
 .passageiro3 p {
-    color: white;
     font-size: 20px;
 }
 
@@ -89,3 +86,21 @@ header h1 {
 .decisao a:hover {
     color: rgb(91, 91, 255);
 }
+
+.botoes {
+    gap: 100px;
+}
+
+.finalizar {
+    width: 35%;
+    font-size: 45px;
+    display: inline-block;
+    margin-top: 5%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(1, 177, 1);
+    border: 10px;
+    border-radius: 10px;
+}
+
+
